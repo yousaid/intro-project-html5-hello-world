@@ -1,0 +1,357 @@
+html, body {
+text-align:center;
+width:100%;
+height:100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600; 
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color:#4e4e4e;
+}
+
+h1{
+  font-size: 36px;
+  color:#fff;
+  /*CSS3 properties*/
+  text-shadow: 5px 5px 5px #bbb;
+}
+
+h2 {
+	clear: left;
+	color: #003;
+    text-transform: uppercase;
+	margin-left: 10px;
+	font-size: 25px;
+	font-weight: bold;
+     border-bottom: 1px solid   #c52d2f;
+     /*CSS3 properties*/
+     text-shadow: 5px 5px 5px #bbb;
+}
+
+h3{
+  font-size: 16px;
+  color: #787878;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+h4{
+  font-size: 16px;
+}
+
+
+.siteheader h1 {
+	font-size: 225%;
+	color:#003;
+	margin-left: 20px;
+	padding-left: 40px;
+	text-align: center;
+    
+}
+
+
+
+a {
+	color:#91784F;
+	font-weight:bold;
+	text-decoration:none;
+    /*CSS3 properties*/
+     -webkit-transition: color 300ms, background-color 300ms;
+    -moz-transition: color 300ms, background-color 300ms;
+   -o-transition:  color 300ms, background-color 300ms;
+   transition:  color 300ms, background-color 300ms;
+}
+a:hover, a:active, a:focus {
+	color:#B59D77;
+	text-decoration:underline;
+}
+
+
+/*the header area*/
+.siteHeader {
+    margin-top: 5px;
+    padding: 20px 20px 0 20px;
+    height: 80px;
+	background-color: #201717;
+   
+    border-radius: 20px 20px 20px 20px;
+}
+
+
+.title {
+	color: #d2ebf9;
+	font-variant: normal;
+	font-weight: bold;
+	font-size: 24px;
+    text-transform: uppercase;
+    margin-left: 150px;
+    text-shadow: 5px 5px 5px #bbb;
+   
+}
+.logo {
+	clear: left;
+	height: 80px;
+	width: 120px;
+		
+	margin-right: 5px;
+	padding: 2px;
+	float: left;
+	   
+}
+.tagline {
+	color:  #f3e7a8;
+	position: relative;
+   padding-bottom:   125px;
+	left: 200px;
+	font-style: italic;
+	font-size: 14px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+/*End header*/
+
+body {
+    font-size: 14px;
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background: #F2F2F2;
+    line-height: 22px;
+    background-size: 100% 100%;
+   
+}
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+hr {
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #fff;
+  margin: 1em 0;
+  padding: 0;
+ 
+}
+/*Hold the page together*/
+#page-wrap {
+    width: 980px;
+    max-width: 1280px;
+	margin: 0 auto ;
+    text-align: left;
+  
+}
+/*begin site menu for navigation*/
+
+menu {
+    padding: 0;
+    margin: 0 0 0 60px;
+    display: inline;
+    border-bottom: 1px solid   #c52d2f;
+}
+    
+.menu li {
+    padding: 0;
+    margin: 0 24px 0 0;
+    display: inline;
+}
+        
+.menu li a {
+    padding: 12px 12px 12px 40px;
+    color: #0F6395;
+}
+
+.menu li a:hover {
+    color: #09354f;
+}
+
+
+
+          
+/* handle images*/
+figure {
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+	background: #E6E6E6;
+	padding: 10px;
+}
+.imgContainer {
+	width: 360px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 16px;
+}
+.imgContainer img {
+	display: block;
+}
+.imgContainer figcaption {
+	margin-top: 5px;
+	font-size: 12px;
+}
+
+.imgSideBarContainer {
+	width: 140px;
+	margin-left: 1px;
+	text-align: center;
+	font-size: 12px;
+}
+
+
+/* Inline images */
+.floatleft {
+	float: left;
+	margin: 3px 12px 3px 0;
+}
+.floatright {
+	float: right;
+	margin: 3px 0 3px 12px;
+}
+/*make all images responsive*/
+img { max-width: 100% !important;
+      height: auto;
+      width: auto;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+}
+/*End responsive images*/
+
+/* Add drop shadows to floated items and page */
+.floatleft, .floatright, .maincontent, .aside {
+	-webkit-box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+	-moz-box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+}
+/*the main content story*/
+.fullstory {
+  font-size: 14px;
+}
+.readmore {
+	text-align: right;
+	display: block;
+	padding: 5px;
+	font-size: 11px;
+	font-weight: bold;
+	color: white;
+	background-color: #d2ebf9;
+}
+.readmore a {
+	color: maroon;
+}
+.headline {
+	padding: 10px;
+}
+.story_thumb {
+	clear: left;
+	height: 80px;
+	width: 120px;
+	margin-bottom: 10px;	
+	margin-right: 15px;
+	padding: 2px;
+	float: left;
+	   
+}
+/*Breaking story thumb*/
+.bigstory_thumb {
+	clear: left;
+	height: 250px;
+	width: 250px;
+	margin-bottom: 10px;	
+	margin-right: 15px;
+	padding: 2px;
+	float: left;
+	   
+}
+
+/*Make things look little fancy*/
+.dropcap {
+	font-family:Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-size: 45px;
+	text-align:right;
+	margin:0;
+}
+/* Main content and sidebar */
+.maincontent, .aside {
+	margin: 20px;
+}
+
+/*main content*/
+.maincontent {
+	margin-bottom: 10px;
+	margin-right: 10px;
+    margin-top: 5px;
+	width: 700px;
+	float: left;
+    font-family: source-sans-pro, sans-serif;
+    background-color:#fff;
+	padding:20px;
+    font-size:14px;
+    text-align: justify;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	border-radius: 18px;
+    
+}
+.maincontent storySection {
+	width: 40%;
+	display: block;
+	float: left;
+	min-width: 400px;
+	background: #FFF;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+    zoom: 1;
+	-moz-box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px; 
+	-webkit-box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px; 
+	box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px; 
+	background-color:#0f0f0f;
+	opacity:0.92; 
+	border-radius: 0px;
+}
+
+
+/*Aside --the sidebar*/
+.aside {
+	
+    background-color:#fff;
+	padding:20px;
+    border-style: solid;
+	border-color: #003333;
+	
+	border-width: 1px;
+    margin-left: 770px;
+    font-family: source-sans-pro, sans-serif;
+   
+   	font-size:14px;
+    text-align: justify;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	border-radius: 18px;
+}
+
+
+/* Footer */
+.footer {
+	clear: both;
+    border-top: 1px solid   #c52d2f;
+    margin: 20px 0 20px 0;
+    padding: 20px 0 20px 0;
+    font-size: 0.8em;
+    text-align: center;
+    color:  #F2F2F2;
+    background-color: #201717;
+    
+	
+}
+.footer p {
+	font-size: 12px;
+	margin: 0 0 5px 0;
+    text-align: center;
+}
+
+
+
